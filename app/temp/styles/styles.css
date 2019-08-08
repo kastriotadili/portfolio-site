@@ -440,7 +440,7 @@ a {
 }
 
 .large-hero {
-  border-bottom: 10px solid #2f5572;
+  border-bottom: 10px solid #0e051d;
   position: relative;
 
 }
@@ -986,14 +986,14 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-d2ff13a2.svg');
+      background-image: url('../../assets/images/sprites/sprite-3a7fb173.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-d2ff13a2.png');
+      background-image: url('../../assets/images/sprites/sprite-3a7fb173.png');
     }
 
-.icon--clearview-escapes {
+.icon--clear-view-escapes {
     width: 144.4px;
     height: 61.5px;
     background-position: 0 0;
@@ -1107,7 +1107,7 @@ Instead edit gulp/templates/sprite */
   }
 
   .site-header--dark {
-    background-color: rgba(23, 51, 72, .85);
+    background-color: rgba(97,64,106, .85);
   }
 }
 
@@ -1125,8 +1125,10 @@ Instead edit gulp/templates/sprite */
   transform: translateX(-50%) scale(.8);
   transition: transform .3s ease-out;
   transform-origin: 50% 0;
-  background-color: #61406a;
+  background: linear-gradient(to bottom, rgba(193,150,90,1) 0%,rgba(255,255,255,0) 100%);
   padding: 25px 36px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
 }
 
 @media (min-width: 800px) {
@@ -1297,7 +1299,7 @@ Instead edit gulp/templates/sprite */
   display: block;
   padding: 5px 8px;
   font-size: .8rem;
-  background-color: rgba(47,85,114, .5);
+  background-color: rgba(97,64,106, .5);
 }
 
 @media (min-width: 800px) {
