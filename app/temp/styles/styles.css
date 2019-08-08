@@ -1294,6 +1294,7 @@ Instead edit gulp/templates/sprite */
 
 .primary-nav a {
   color: #FFF;
+  font-family: Andale Mono, monospace;
   font-weight: 300;
   text-decoration: none;
   display: block;
@@ -1305,8 +1306,8 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px) {
 
   .primary-nav a {
-    font-size: 1rem;
-    padding: 12px 0;
+    font-size: 1.4rem;
+    padding: 12px 4px;
     background-color: transparent;
   }
 

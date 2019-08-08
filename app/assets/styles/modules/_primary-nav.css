@@ -37,6 +37,7 @@
 
   a {
     color: #FFF;
+    font-family: Andale Mono, monospace;
     font-weight: 300;
     text-decoration: none;
     display: block;
@@ -45,8 +46,8 @@
     background-color: rgba($mainPurple, .5);
 
     @mixin atMedium {
-      font-size: 1rem;
-      padding: 12px 0;
+      font-size: 1.4rem;
+      padding: 12px 4px;
       background-color: transparent;
 
       &.is-current-link {
