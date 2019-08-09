@@ -422,7 +422,7 @@ textarea {
 }
 
 body {
-    font-family: 'Kalam', cursive;
+  font-family: 'Kalam', cursive;
   color: #333;
   /*
   font-family: 'Inconsolata', monospace;
@@ -1335,7 +1335,7 @@ Instead edit gulp/templates/sprite */
 .modal {
   position: fixed;
   z-index: 5;
-  background-color: rgba(255, 255, 255, .94);
+  background-color: rgba(255,255,248, .90);
   top: 0;
   bottom: 0;
   left: 0;
@@ -1373,7 +1373,7 @@ Instead edit gulp/templates/sprite */
   font-size: 2rem;
   transform: scaleX(1.2);
   transform-origin: 100% 0;
-  color: #2f5572;
+  color: #d59541;
   cursor: pointer;
 }
 
