@@ -1,6 +1,12 @@
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
   color: #333;
+  /*
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Kalam', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Lacquer', sans-serif
+*/
 }
 
 img {
