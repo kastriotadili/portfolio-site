@@ -66,6 +66,10 @@
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
+	var _QuoteGenerator = __webpack_require__(8);
+
+	var _QuoteGenerator2 = _interopRequireDefault(_QuoteGenerator);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
@@ -73,6 +77,7 @@
 	new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
 	var stickyHeader = new _StickyHeader2.default();
 	var modal = new _Modal2.default();
+	var quoteGenerator = new _QuoteGenerator2.default();
 
 /***/ }),
 /* 1 */
@@ -11305,6 +11310,29 @@
 	}();
 
 	exports.default = Modal;
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var QuoteGenerator = function QuoteGenerator() {
+	  _classCallCheck(this, QuoteGenerator);
+
+	  this.quote = ["Blank", "\"Dude, suckin' at something is the first step at being sorta good at something.\"<br>-  Jake <small><em>(Adventure Time)</em></small>", "\"Either I will find a way, or I will make one.\"<br> - Philip Sidney", "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\"<br>- Thomas A. Edison", "\"You are never too old to set another goal or to dream a new dream.\"<br>- C.S Lewis", "\"If you can dream it, you can do it.\"<br>- Walt Disney", "\"Never give up, for that is just the place and time that the tide will turn.\"<br>- Harriet Beecher Stowe", "\"I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want.\"<br>- Muhammad Ali", "\"If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.\"<br>- Bruce Lee"];
+
+	  this.randNum = Math.floor(Math.random() * 8) + 1;
+	  document.getElementById('quote').innerHTML = this.quote[this.randNum];
+	};
+
+	exports.default = QuoteGenerator;
 
 /***/ })
 /******/ ]);
