@@ -6,7 +6,7 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainBlack, .55);
+    background-color: rgba($mainBlue, .55);
   }
 
   @mixin atMedium {
@@ -14,7 +14,7 @@
     background-color: rgba($mainBlack, .3);
 
     &--dark {
-      background-color: rgba($mainPurple, .85);
+      background-color: rgba(23, 51, 72, .85);
     }
   }
 
@@ -26,22 +26,20 @@
 
   &__logo {
     position: absolute;
-    top: -18px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%) scale(.8);
     transition: transform .3s ease-out;
     transform-origin: 50% 0;
-    background: linear-gradient(to bottom, rgba(193,150,90,1) 0%,rgba(255,255,255,0) 100%);
+    background-color: $mainBlue;
     padding: 25px 36px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 120px;
 
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.8);
+        transform: scale(.56);
       }
     }
   }
@@ -65,7 +63,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $mainYellow;
+      background-color: #FFF;
       transform-origin: 0 0;
       transition: transform .3s ease-out;
     }
@@ -76,7 +74,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $mainYellow;
+      background-color: #FFF;
       transition: all .3s ease-out;
       transform-origin: 0 50%;
     }
@@ -88,7 +86,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $mainYellow;
+      background-color: #FFF;
       transform-origin: 0 100%;
       transition: transform .3s ease-out;
     }
