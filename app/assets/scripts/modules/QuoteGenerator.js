@@ -3,21 +3,21 @@ class QuoteGenerator {
   constructor() {
     this.quote = ["Blank",
 
-     "\"Dude, suckin' at something is the first step at being sorta good at something.\"<br>-  Jake <small><em>(Adventure Time)</em></small>",
+     "\"Dude, suckin' at something is the first step at being sorta good at something.\"<br><br>-  Jake <small><em>(Adventure Time)</em></small>",
 
-     "\"Either I will find a way, or I will make one.\"<br> - Philip Sidney",
+     "\"You forget what you want to remember, and you remember what you want to forget.\"<br><br> - Cormac McCarthy",
 
-      "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\"<br>- Thomas A. Edison",
+      "\"Never forget what you are. The rest of the world will not. Wear it like armour, then it can never be used to hurt you.\"<br><br>- George R.R. Martin",
 
-       "\"You are never too old to set another goal or to dream a new dream.\"<br>- C.S Lewis",
+       "\"The goal isn’t to live forever, the goal is to create something that will.\"<br><br>- Chuck Palahniuk",
 
-        "\"If you can dream it, you can do it.\"<br>- Walt Disney",
+        "\"When something is important enough, you do it even if the odds are not in your favour.\"<br><br>- Elon Musk",
 
-        "\"Never give up, for that is just the place and time that the tide will turn.\"<br>- Harriet Beecher Stowe",
+        "\"Nowadays people know the price of everything and the value of nothing.\"<br><br>- Oscar Wilde",
 
-         "\"I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want.\"<br>- Muhammad Ali",
+         "\"Not all those who wander are lost.\"<br><br>- J.R.R. Tolkien",
 
-         "\"If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.\"<br>- Bruce Lee",];
+         "\"Remember, today is the tomorrow you worried about yesterday.\"<br><br>- Dale Carnegie",];
 
     this.randNum = Math.floor(Math.random() * 8) + 1;
     document.getElementById('quote').innerHTML = this.quote[this.randNum];
