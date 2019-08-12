@@ -491,6 +491,7 @@ a {
   color: #BE955F;
   font-size: 1.5rem;
   margin: 0;
+  line-height: 1.4;
 }
 
 @media (min-width: 530px) {
@@ -518,7 +519,7 @@ a {
 }
 
 .btn {
-  background-color: #d59541;
+  background-color: #61406a;
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
@@ -526,8 +527,8 @@ a {
 
 }
 
-.btn--orange {
-  background-color: #d59541;
+.btn--purple {
+  background-color: #61406a;
 }
 
 .btn--large {
@@ -636,7 +637,7 @@ a {
 }
 
 .page-section--blue {
-  background-color: #2f5572;
+  background-color: #333;
   color: #FFF;
 }
 
@@ -1072,7 +1073,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .site-footer {
-  background-color: #2f5572;
+  background-color: #0e051d;
   color: #FFF;
   padding: .5rem 0;
   text-align: center;
@@ -1373,7 +1374,7 @@ Instead edit gulp/templates/sprite */
   font-size: 2rem;
   transform: scaleX(1.2);
   transform-origin: 100% 0;
-  color: #d59541;
+  color: #61406a;
   cursor: pointer;
 }
 
