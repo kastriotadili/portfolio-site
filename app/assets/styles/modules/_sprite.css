@@ -2,11 +2,11 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-3a7fb173.svg');
+      background-image: url('../../assets/images/sprites/sprite-ca8c6ba0.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-3a7fb173.png');
+      background-image: url('../../assets/images/sprites/sprite-ca8c6ba0.png');
     }
 
   .icon--clear-view-escapes {
@@ -24,7 +24,7 @@ Instead edit gulp/templates/sprite */
   .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 26.424310365536293% 45.89894768266288%;
+    background-position: 57.813188133082434% 49.25740726919919%;
   }
 
   .icon--fire {
@@ -40,9 +40,9 @@ Instead edit gulp/templates/sprite */
   }
 
   .icon--instagram {
-    width: 44.01px;
-    height: 44.01px;
-    background-position: 63.059522249879905% 49.25740726919919%;
+    width: 44px;
+    height: 42.93px;
+    background-position: 28.820960698689955% 45.53194639816392%;
   }
 
   .icon--mail {
@@ -78,5 +78,5 @@ Instead edit gulp/templates/sprite */
   .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 37.76931216931217% 45.8955223880597%;
+    background-position: 70.95449735449735% 49.25373134328358%;
   }
