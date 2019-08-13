@@ -2,11 +2,11 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-ca8c6ba0.svg');
+      background-image: url('../../assets/images/sprites/sprite-5d00a46e.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-ca8c6ba0.png');
+      background-image: url('../../assets/images/sprites/sprite-5d00a46e.png');
     }
 
   .icon--clear-view-escapes {
@@ -24,49 +24,49 @@ Instead edit gulp/templates/sprite */
   .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 57.813188133082434% 49.25740726919919%;
+    background-position: 57.813188133082434% 37.290242386575514%;
   }
 
   .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 0 99.55357142857143%;
+    background-position: 0 71.93548387096774%;
   }
 
   .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 28.019323671497585% 99.55357142857143%;
+    background-position: 28.019323671497585% 71.93548387096774%;
   }
 
   .icon--instagram {
     width: 44px;
     height: 42.93px;
-    background-position: 28.820960698689955% 45.53194639816392%;
+    background-position: 0 99.6799011624642%;
   }
 
   .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 0 48.046875%;
+    background-position: 0 35.96491228070175%;
   }
 
   .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 99.71014492753623% 58.92857142857143%;
+    background-position: 99.71014492753623% 42.58064516129032%;
   }
 
   .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 59.90338164251208% 99.55357142857143%;
+    background-position: 59.90338164251208% 71.93548387096774%;
   }
 
   .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 94.15199343125627% 98.55159026429745%;
+    background-position: 94.15199343125627% 74.60155985079687%;
   }
 
   .icon--wifi {
@@ -76,7 +76,7 @@ Instead edit gulp/templates/sprite */
   }
 
   .icon--youtube {
-    width: 36.75px;
-    height: 44px;
-    background-position: 70.95449735449735% 49.25373134328358%;
+    width: 45.78px;
+    height: 45.78px;
+    background-position: 29.04673884341167% 35.09873302134459%;
   }
