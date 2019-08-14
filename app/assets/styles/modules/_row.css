@@ -1,5 +1,8 @@
 .row {
 
+  #notPractical {
+    border-radius: 40px;
+  }
   @mixin clearfix;
 
   &--t-padding {
