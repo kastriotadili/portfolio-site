@@ -613,7 +613,7 @@ a {
 @media (min-width: 800px) {
 
   .page-section {
-    padding: 4.5rem 0;
+    padding: 2.2rem 0;
   }
 }
 
@@ -941,7 +941,6 @@ a {
   font-weight: 300;
   margin-top: .7em;
   margin-bottom: .8rem;
-  text-align: center;
 }
 
 @media (min-width: 530px) {
