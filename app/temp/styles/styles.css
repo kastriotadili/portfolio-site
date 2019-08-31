@@ -640,7 +640,7 @@ a {
 }
 
 .page-section--blue {
-  background-image: linear-gradient(0, rgba(192, 76, 238, 0.36) 0%, rgba(192, 76, 238, 0.36) 25%,rgba(154, 62, 196, 0.36) 25%, rgba(154, 62, 196, 0.36) 50%,rgba(115, 48, 155, 0.36) 50%, rgba(115, 48, 155, 0.36) 75%,rgba(77, 34, 113, 0.36) 75%, rgba(77, 34, 113, 0.36) 100%),linear-gradient(90deg, rgb(100, 57, 225) 0%, rgb(100, 57, 225) 20%,rgb(79, 62, 180) 20%, rgb(79, 62, 180) 40%,rgb(58, 68, 136) 40%, rgb(58, 68, 136) 60%,rgb(36, 73, 91) 60%, rgb(36, 73, 91) 80%,rgb(15, 78, 46) 80%, rgb(15, 78, 46) 100%);
+  background-image: linear-gradient(226deg, rgba(31, 31, 31, 0.02) 0%, rgba(31, 31, 31, 0.02) 50%,rgba(164, 164, 164, 0.02) 50%, rgba(164, 164, 164, 0.02) 100%),linear-gradient(190deg, rgba(120, 120, 120, 0.01) 0%, rgba(120, 120, 120, 0.01) 50%,rgba(117, 117, 117, 0.01) 50%, rgba(117, 117, 117, 0.01) 100%),linear-gradient(34deg, rgba(159, 159, 159, 0.02) 0%, rgba(159, 159, 159, 0.02) 50%,rgba(205, 205, 205, 0.02) 50%, rgba(205, 205, 205, 0.02) 100%),linear-gradient(190deg, rgba(206, 206, 206, 0.01) 0%, rgba(206, 206, 206, 0.01) 50%,rgba(141, 141, 141, 0.01) 50%, rgba(141, 141, 141, 0.01) 100%),linear-gradient(341deg, rgba(233, 233, 233, 0.03) 0%, rgba(233, 233, 233, 0.03) 50%,rgba(125, 125, 125, 0.03) 50%, rgba(125, 125, 125, 0.03) 100%),linear-gradient(148deg, rgba(250, 250, 250, 0.03) 0%, rgba(250, 250, 250, 0.03) 50%,rgba(23, 23, 23, 0.03) 50%, rgba(23, 23, 23, 0.03) 100%),linear-gradient(147deg, rgba(253, 253, 253, 0.02) 0%, rgba(253, 253, 253, 0.02) 50%,rgba(171, 171, 171, 0.02) 50%, rgba(171, 171, 171, 0.02) 100%),linear-gradient(90deg, rgb(58, 36, 145),rgb(168, 95, 194));
   color: #FFF;
 }
 
@@ -868,6 +868,7 @@ a {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
+  color: #d59541;
 
 }
 
@@ -1001,41 +1002,41 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-9a3ba0b3.svg');
+      background-image: url('../../assets/images/sprites/sprite-783da669.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-9a3ba0b3.png');
+      background-image: url('../../assets/images/sprites/sprite-783da669.png');
     }
 
 .icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 65.02463054187191% 71.93548387096774%;
+    background-position: 0 48.046875%;
   }
 
 .icon--facebook {
     width: 45.22px;
     height: 45.39px;
-    background-position: 64.52766109571901% 37.583281134331756%;
+    background-position: 99.34838039474927% 30.805463966085725%;
   }
 
 .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 68.43601895734596% 0;
+    background-position: 33.165829145728644% 48.046875%;
   }
 
 .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 0 71.93548387096774%;
+    background-position: 75.6020942408377% 0;
   }
 
 .icon--instagram {
     width: 44px;
     height: 42.93px;
-    background-position: 0 99.6799011624642%;
+    background-position: 98.77934272300469% 89.51479446614154%;
   }
 
 .icon--kas-header-logo {
@@ -1045,39 +1046,39 @@ Instead edit gulp/templates/sprite */
   }
 
 .icon--mail {
-    width: 66px;
-    height: 50px;
-    background-position: 0 35.96491228070175%;
+    width: 65.94px;
+    height: 49.95px;
+    background-position: 75.5783523500471% 45.817424505380075%;
   }
 
 .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 99.70443349753694% 42.58064516129032%;
+    background-position: 69.10994764397905% 99.609375%;
   }
 
 .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 99.70443349753694% 0;
+    background-position: 34.55497382198953% 99.609375%;
   }
 
 .icon--twitter {
-    width: 53.78px;
+    width: 44.06px;
     height: 44.06px;
-    background-position: 94.04330452560171% 74.60155985079687%;
+    background-position: 98.80717573025265% 60.80432172869148%;
   }
 
 .icon--wifi {
     width: 66px;
     height: 66px;
-    background-position: 32.51231527093596% 71.93548387096774%;
+    background-position: 0 99.609375%;
   }
 
 .icon--youtube {
     width: 45.78px;
     height: 45.78px;
-    background-position: 29.56724307857719% 35.09873302134459%;
+    background-position: 99.61177918757693% 0;
   }
 
 .site-footer {
@@ -1344,7 +1345,7 @@ Instead edit gulp/templates/sprite */
 .modal {
   position: fixed;
   z-index: 5;
-  background-color: rgba(255,255,248, .90);
+  background-color: rgba(0, 0, 0, 0.83);
   top: 0;
   bottom: 0;
   left: 0;
@@ -1382,12 +1383,12 @@ Instead edit gulp/templates/sprite */
   font-size: 2rem;
   transform: scaleX(1.2);
   transform-origin: 100% 0;
-  color: #61406a;
+  color: #d59541;
   cursor: pointer;
 }
 
 .modal__close:hover {
-  color: #d59541;
+  color: #fff;
 }
 
 .social-icons {
@@ -1395,12 +1396,14 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-  background-color: #61406a;
+  background-color: #333;
+  border-radius:8px;
   display: inline-block;
   margin: 0 5px 5px 5px;
   width: 33%;
   height: 72px;
   position: relative;
+  transition:0.4s;
 }
 
 @media (min-width: 530px) {
@@ -1417,4 +1420,8 @@ Instead edit gulp/templates/sprite */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.social-icons__icon:hover {
+  background-color: #d59541;
 }
