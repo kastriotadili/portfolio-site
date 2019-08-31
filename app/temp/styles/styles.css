@@ -527,11 +527,6 @@ a {
   padding: .75rem 1.2rem;
   display: inline-block;
   border-radius: 6px;
-
-}
-
-.btn--purple {
-  background-color: #61406a;
 }
 
 .btn--large {
@@ -1131,6 +1126,12 @@ Instead edit gulp/templates/sprite */
   .site-header__btn-container {
     float: right;
   }
+}
+
+.site-header__btn-container :hover {
+  border:1px #f69f40 solid;
+  transition:.3s ease-out;
+  color:#f69f40;
 }
 
 .site-header__logo {
