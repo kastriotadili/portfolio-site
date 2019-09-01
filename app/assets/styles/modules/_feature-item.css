@@ -2,6 +2,17 @@
   position: relative;
   padding-bottom: 2.5rem;
 
+  .btn {
+    background-color: $mainOrange;
+    color:#fff;
+  }
+
+  .btn:hover {
+    background-color: rgba(0,0,0,.3);
+    transition:.3s;
+    color:#fff;
+  }
+
   @mixin atSmall {
     padding-left: 94px;
   }

@@ -23,9 +23,9 @@
       float: right;
     }
     :hover {
-      border:1px $mainOrange solid;
       transition:.3s ease-out;
-      color:$mainOrange;
+      color:#fff;
+      background-color:$mainOrange;
     }
   }
 

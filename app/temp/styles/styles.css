@@ -521,12 +521,13 @@ a {
 }
 
 .btn {
-  background-color: #f69f40;
-  color: #FFF;
+  background-color: rbga(0,0,0,.8);
+  color: #f69f40;
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
   border-radius: 6px;
+  border:1px #f69f40 solid;
 }
 
 .btn--large {
@@ -911,6 +912,17 @@ a {
   padding-bottom: 2.5rem;
 }
 
+.feature-item .btn {
+  background-color: #f69f40;
+  color:#fff;
+}
+
+.feature-item .btn:hover {
+  background-color: rgba(0,0,0,.3);
+  transition:.3s;
+  color:#fff;
+}
+
 @media (min-width: 530px) {
 
   .feature-item {
@@ -1129,9 +1141,9 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header__btn-container :hover {
-  border:1px #f69f40 solid;
   transition:.3s ease-out;
-  color:#f69f40;
+  color:#fff;
+  background-color:#f69f40;
 }
 
 .site-header__logo {
@@ -1315,7 +1327,8 @@ Instead edit gulp/templates/sprite */
   display: block;
   padding: 5px 8px;
   font-size: .8rem;
-  background-color: rgba(97,64,106, .5);
+  background-color: #f69f40;
+  border-radius: 6px;
 }
 
 @media (min-width: 800px) {
@@ -1346,6 +1359,7 @@ Instead edit gulp/templates/sprite */
   position: fixed;
   z-index: 5;
   background-color: rgba(0, 0, 0, 0.83);
+  border: 1px #f69f40 solid;
   top: 0;
   bottom: 0;
   left: 0;
@@ -1388,6 +1402,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .modal__close:hover {
+  transition: .5s;
   color: #fff;
 }
 
@@ -1396,8 +1411,9 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons__icon {
-  background-color: #333;
+  background-color: rgba(0,0,0,.2);
   border-radius:8px;
+  border: 1px #fff solid;
   display: inline-block;
   margin: 0 5px 5px 5px;
   width: 33%;
@@ -1424,4 +1440,5 @@ Instead edit gulp/templates/sprite */
 
 .social-icons__icon:hover {
   background-color: #f69f40;
+  border: 1px #f69f40 solid;
 }

@@ -2,8 +2,9 @@
   text-align: center;
 
   &__icon {
-    background-color: #333;
+    background-color: rgba(0,0,0,.2);
     border-radius:8px;
+    border: 1px #fff solid;
     display: inline-block;
     margin: 0 5px 5px 5px;
     width: 33%;
@@ -26,6 +27,7 @@
   }
 
   &__icon:hover {
-    background-color: $mainOrange; 
+    background-color: $mainOrange;
+    border: 1px $mainOrange solid;
   }
 }
