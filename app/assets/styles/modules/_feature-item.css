@@ -5,6 +5,10 @@
   .btn {
     background-color: $mainOrange;
     color:#fff;
+
+    @mixin atSmall {
+      margin-bottom:.3em;
+    }
   }
 
   .btn:hover {

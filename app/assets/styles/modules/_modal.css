@@ -2,7 +2,6 @@
   position: fixed;
   z-index: 5;
   background-color: rgba(0, 0, 0, 0.83);
-  border: 1px $mainOrange solid;
   top: 0;
   bottom: 0;
   left: 0;
